@@ -14,26 +14,45 @@
         }
         body{
 
-            background-image: linear-gradient(242.04deg, #1CD881 -66.12%, #313A5B 111.11%);
+            background-color:teal;
+        }
+        form{
+            height: 100%;
+        }
+        .text-center{
+            background-color: rgba(0,0,0,0.5);
+            color:white
+        }
+        label{
+            color:white;
         }
     </style>
 </head>
 <body>
     
-        <div class="container">  
-<div class="text-center">    <h3>Stock trading page</h3>
+   
+<div class="text-center">
+    <br>    <h3>Stock trading page</h3>
+    <!--time ahould change.-->
 Market is currently Closed- Opens in 1 hour 6 hours and 51 minutes.<br><br>
 <h5>ORDER STOCK</h5>
+<br><br>
 </div>
-
-  
+<div class="container">
+  <br>
     <form>
         <div class="form-group">
             <div class="row">
                 <div class="col-lg-6">
           <label for="exampleFormControlInput1">STOCK NAME</label></div>
           <div class="col-lg-6">
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="stock name">
+          <select class="form-control form-control-sm">
+              <!--stock names.-->
+              <option>name1</option>
+              <option>name2</option>
+              <option>name3</option>
+              <option>name4</option>
+          </select>
           </div>
             </div>
         </div>
@@ -61,14 +80,14 @@ Market is currently Closed- Opens in 1 hour 6 hours and 51 minutes.<br><br>
           <div class="form-check">
             <div class="row">
             <div class="col-lg-6">
-            <label for="exampleFormControlInput1">PRICE</label></div>
+            <label for="exampleFormControlInput1" style="text-align:left">PRICE</label></div>
             <div class="col-lg-6">
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label" for="exampleRadios1">
               Market
             </label><br></div></div>
             <div class="row">
-                <div class="col-lg-6">.</div>
+                <div class="col-lg-6"></div>
                 <div class="col-lg-6">
 
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked>
@@ -90,7 +109,8 @@ Market is currently Closed- Opens in 1 hour 6 hours and 51 minutes.<br><br>
           
        
         
-        
+        <br>
+        <br>
       </form>
 </div>
 
